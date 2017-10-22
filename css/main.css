@@ -1,0 +1,231 @@
+/**************************************************************************** */
+/*/* Common
+ */*
+ */**************************************************************************** */
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0; }
+
+html, body {
+  height: 100%; }
+
+body {
+  background-color: black;
+  font: 13.34px Helvetica, Arial, sans-serif;
+  font-size: small;
+  text-align: center; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%; }
+
+h1 {
+  margin-bottom: 1em; }
+
+p {
+  margin: 1em 0; }
+
+a {
+  color: #00a; }
+
+a:hover {
+  color: #000; }
+
+a:visited {
+  color: #a0a; }
+
+/**************************************************************************** */
+/*/* Home
+ */*
+ */**************************************************************************** */
+.posts {
+  list-style-type: none;
+  margin-bottom: 2em; }
+
+.posts li {
+  line-height: 1.75em; }
+
+.posts span {
+  color: #aaa;
+  font-family: Monaco, "Courier New", monospace;
+  font-size: 80%; }
+
+/**************************************************************************** */
+/*/* Site
+ */*
+ */**************************************************************************** */
+.site {
+  font-size: 115%;
+  text-align: justify;
+  width: 42em;
+  margin: 3em auto 2em;
+  line-height: 1.5em; }
+
+.header a {
+  font-weight: bold;
+  text-decoration: none; }
+
+.title {
+  display: inline-block;
+  margin-bottom: 2em; }
+
+.title a {
+  color: #a00; }
+
+.title a:hover {
+  color: #000; }
+
+.header a.extra {
+  color: #aaa;
+  margin-left: 1em; }
+
+.header a.extra:hover {
+  color: #000; }
+
+.meta {
+  color: #aaa; }
+
+.footer {
+  font-size: 80%;
+  color: #666;
+  border-top: 4px solid #eee;
+  margin-top: 2em;
+  overflow: hidden; }
+
+.footer .contact {
+  float: left;
+  margin-right: 3em; }
+
+.footer .contact a {
+  color: #8085C1; }
+
+.footer .rss {
+  margin-top: 1.1em;
+  margin-right: -0.2em;
+  float: right; }
+
+.footer .rss img {
+  border: 0; }
+
+/**************************************************************************** */
+/*/* Posts
+ */*
+ */**************************************************************************** */
+/* standard */
+.post pre {
+  border: 1px solid #ddd;
+  background-color: #eef;
+  padding: 0 0.4em; }
+
+.post ul, .post ol {
+  margin-left: 1.35em; }
+
+.post code {
+  border: 1px solid #ddd;
+  background-color: #eef;
+  padding: 0 0.2em; }
+
+.post pre code {
+  border: none; }
+
+/* terminal */
+.post pre.terminal {
+  border: 1px solid #000;
+  background-color: #333;
+  color: #FFF; }
+
+.post pre.terminal code {
+  background-color: #333; }
+
+.home-avatar {
+  margin: 0 auto;
+  border-radius: 60px;
+  width: 120px;
+  height: 120px; }
+.home-tags {
+  margin-top: 15px;
+  font-size: 14px;
+  font-weight: 100;
+  color: white; }
+  .home-tags li {
+    display: inline-block;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 7px;
+    background: #3498db;
+    line-height: 10px; }
+.home-intro {
+  margin: 30px auto 0; }
+
+.imprint {
+  text-align: left; }
+  .imprint h1 {
+    color: #555555; }
+
+/* HEADER */
+header {
+  margin: 0;
+  height: 120px;
+  padding: 0;
+  background: #f2f2f2;
+  text-align: center; }
+  header a {
+    text-decoration: none; }
+  header .header-headline {
+    margin-bottom: 0;
+    padding-top: 25px;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #555555; }
+    @media only screen and (min-width: 768px) {
+      header .header-headline {
+        padding-top: 15px;
+        font-size: 40px; } }
+    header .header-headline--sub {
+      font-size: 14px;
+      font-weight: 300;
+      color: #9f9f9f; }
+
+/* BODY */
+body {
+  margin: 0;
+  background: #ffffff;
+  font-family: "Oswald", sans-serif; }
+
+.page-content {
+  margin: 0 auto;
+  max-width: 500px;
+  padding: 20px;
+  font-size: 18px;
+  line-height: 36px;
+  font-weight: 200;
+  text-align: center;
+  color: #999999; }
+  @media only screen and (min-width: 768px) {
+    .page-content {
+      padding: 40px; } }
+  .page-content h1 {
+    font-size: 24; }
+  .page-content p {
+    line-height: 26px; }
+
+/* FOOTER */
+footer {
+  margin-top: 40px;
+  padding: 40px;
+  font-weight: 100;
+  color: #cccccc; }
+
+.link, .link:visited {
+  border-bottom: 1px dotted #cccccc;
+  font-weight: 300;
+  text-decoration: none;
+  color: #cccccc; }
+  .link:hover, .link:visited:hover {
+    border-bottom: 1px dotted #3498db;
+    color: #3498db; }
+
+.link--reducedRightMargin {
+  margin-right: -2px; }
